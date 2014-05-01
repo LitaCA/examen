@@ -1,0 +1,7 @@
+C:\Users\CA\Documents\SharpDevelop Projects\QuintaPractica\QuintaPractica\bin\Debug\QuintaPractica.exe
+C:\Users\CA\Documents\SharpDevelop Projects\QuintaPractica\QuintaPractica\bin\Debug\QuintaPractica.pdb
+C:\Users\CA\Documents\SharpDevelop Projects\QuintaPractica\QuintaPractica\obj\Debug\QuintaPractica.csprojResolveAssemblyReference.cache
+C:\Users\CA\Documents\SharpDevelop Projects\QuintaPractica\QuintaPractica\obj\Debug\QuintaPractica.MainForm.resources
+C:\Users\CA\Documents\SharpDevelop Projects\QuintaPractica\QuintaPractica\obj\Debug\QuintaPractica.csproj.GenerateResource.Cache
+C:\Users\CA\Documents\SharpDevelop Projects\QuintaPractica\QuintaPractica\obj\Debug\QuintaPractica.exe
+C:\Users\CA\Documents\SharpDevelop Projects\QuintaPractica\QuintaPractica\obj\Debug\QuintaPractica.pdb
