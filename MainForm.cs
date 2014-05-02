@@ -63,12 +63,17 @@ namespace QuintaPractica
 		 	}
 			
 			/*if(  this.Germany.Checked & this.Russia.Checked 
+			/*if( this.Germany.Checked & this.Russia.Checked 
 			   	 & this.radioButton2.Checked
-			   	 & this.numericUpDown1.Text== "31
-			     & this.monthCalendar1.SelectionStart.Date.ToShortDateString="16/09/1810")
-		 	{
+			   	 & this.numericUpDown1.Text== "31"
+			     &  this.monthCalendar1.SelectionStart.Date.ToShortDateString="16/09/1810")
+			{
 		 		contestar = "Correcta 4/4";
 		 	}*/
+			
+			//me ocasiona error la opcción "ToShortDateString 
+			//(razón: No se puede asignar porque es "grupo de métodos")
+			
 			
 			
 			
