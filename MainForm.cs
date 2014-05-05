@@ -38,52 +38,56 @@ namespace QuintaPractica
 		void Button1Click(object sender, EventArgs e)
 		{
 			string contestar="";
-		 	contestar=this.button1.Text;
+		 	contestar=this.contesta.Text;
+			
+		 	int res=0;
 		 	
-		 	
-			if(this.Germany.Checked & this.Russia.Checked)
+			if (this.Germany.Checked & this.Russia.Checked)
 			{
-				contestar= "Correcta 1/4";
 				
+				res=res+1;
 			}
 				
-			if (  this.Germany.Checked & this.Russia.Checked 
-			    & this.radioButton2.Checked)
+			if (this.radioButton2.Checked)
 			{
-				contestar=  "Correcta 2/4";
 				
+				res=res+1;
 			}
 		 
-		 	if(  this.Germany.Checked & this.Russia.Checked 
-			   & this.radioButton2.Checked
-			   & this.numericUpDown1.Text== "31")
+		 	if (this.numericUpDown1.Text=="31")
 		 	{
-		 		contestar ="Correcta 3/4";
-		 	
+		 		
+		 		res=res+1;
 		 	}
 			
-			/*if(  this.Germany.Checked & this.Russia.Checked 
-			/*if( this.Germany.Checked & this.Russia.Checked 
-			   	 & this.radioButton2.Checked
-			   	 & this.numericUpDown1.Text== "31"
-			     &  this.monthCalendar1.SelectionStart.Date.ToShortDateString="16/09/1810")
-			{
-		 		contestar = "Correcta 4/4";
-		 	}*/
+		 	if (this.monthCalendar1.SelectionStart.Date.ToShortDateString()=="16/09/1810")
+		 	{
+		 		
+		 		res=res+1;
+		 	}
 			
-			//me ocasiona error la opcción "ToShortDateString 
-			//(razón: No se puede asignar porque es "grupo de métodos")
-			
-			
-			
-			
-			
- System.Windows.Forms.MessageBox.Show(contestar);
-			
-		 				
+		 	System.Windows.Forms.MessageBox.Show("Las respuestas correctas son: " +res+ "/4" );		 
+		 	
 		}
 		
-		void CheckBox1CheckedChanged(object sender, EventArgs e)
+		
+		
+		void GermanyCheckedChanged(object sender, EventArgs e)
+		{
+			
+		}
+		
+		void RadioButton1CheckedChanged(object sender, EventArgs e)
+		{
+			
+		}
+		
+		void NumericUpDown1ValueChanged(object sender, EventArgs e)
+		{
+			
+		}
+		
+		void MonthCalendar1DateChanged(object sender, DateRangeEventArgs e)
 		{
 			
 		}
